@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3648640374256635643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3648640374256635642}
+  - component: {fileID: 3648640374256635621}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3648640374256635642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3648640374256635643}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 593.8949, y: 1098.2073, z: -204}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3648640374256635621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3648640374256635643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90729e759042a7b4294b419c621cd6f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InputType: 0
+  ExpPoints: 0
+  CoinCount: 0
+  noOfScenes: 0
+  LevelTotal: 0
+  normalDamagefFriend: 0
+  normalDamageEnemy: 0
+  inReflectiveDamage: 0
+  inMissileDamage: 0
+  friendDamageN:
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  enemyDamageN:
+  - 0.6
+  - 0.6
+  - 0.6
+  - 0.7
+  - 0.7
+  - 0.7
+  - 0.7
+  - 0.7
+  - 0.7
+  - 0.7
+  reflectiveDamage: 0500000005000000050000000500000005000000060000000700000008000000090000000a000000
+  missileDamage: 1e0000001e0000001e0000001e0000001e0000001e0000001e0000001e0000002800000032000000
+  totalNoOnTheCover: 0
+  normalCount: 0
+  PiercingCount: 0
+  reflectiveCount: 0
+  MissileCount: 0
+  types_of_bullets: 0
+  decrement_in_spawn_time: 0
+  levelno: 0

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7885381912854911751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7885381912854911865}
+  - component: {fileID: 7885381912854911864}
+  m_Layer: 0
+  m_Name: RainSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7885381912854911865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7885381912854911751}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.566166, y: 4.2291937, z: -1.3848563}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7885381912854911864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7885381912854911751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8182d2038cfce9745aa284bdde289f01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rain_number_prefab: {fileID: 2640626423607924988, guid: 3f36473ef874c0e438f4919b24e5dff7,
+    type: 3}
+  rainMLeft: {fileID: 0}
+  rainMRight: {fileID: 0}
+  rainY: {fileID: 0}
+  rainParticle: []
+  spawnRainParticleSystem: []
+  RainInitiation_prefab: {fileID: 3000720833806147364, guid: 4130d34a97bddac409a109ee4cf9d19c,
+    type: 3}
+  current_time: 0
+  fireRate: 0.2
+  callFrom: 0

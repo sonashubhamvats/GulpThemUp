@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Walls
+  - Friend
+  - Enemy
+  - GameChanger
+  - Coin
+  - Ammo
+  - RainNumer
+  - Turret
+  - Mine
+  - Laser
+  - Shield
+  - teleport
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - NumberEnemy
+  - NumberFriend
+  - GameSceneChanger
+  - Player
+  - Walls
+  - Coin
+  - PowerUp
+  - Bullet
+  - Blast
+  - Shield
+  - PostProcessing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 890990711
+    locked: 0
+  - name: Player
+    uniqueID: 2678854387
+    locked: 0
+  - name: Enemies
+    uniqueID: 2466949457
+    locked: 0
+  - name: GameSceneChanger
+    uniqueID: 2426563317
+    locked: 0
+  - name: 
+    uniqueID: 3769184755
+    locked: 0
+  - name: 
+    uniqueID: 2478128481
+    locked: 0

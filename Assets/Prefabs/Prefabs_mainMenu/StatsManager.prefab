@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7638567877947801419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7638567877947801421}
+  - component: {fileID: 7638567877947801420}
+  - component: {fileID: 2043155857}
+  m_Layer: 0
+  m_Name: StatsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7638567877947801421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7638567877947801419}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1188.002, y: 2334.462, z: -228.125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7638567877947801420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7638567877947801419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9761667d95a8eee4a90dd492bbca6a9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2043155857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7638567877947801419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 098f43a987abfb445b029ba1b67cc7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  congrats_in_order: {fileID: 0}
+  congrats_sub: {fileID: 0}
+  rewards: {fileID: 0}
+  _rank_info:
+  - rank: 2
+    xp_requirements: 2409
+    info: -Attack Point Increased!!<br>-Ripply unlocks at level 7<br>-Piercing Gun
+      unlocks at level 10
+  - rank: 3
+    xp_requirements: 7068
+    info: -Attack Point increased!!<br>-2x multiplier unlocks at level 12<br>-Nectar
+      of the gods unlocks at level 15
+  - rank: 4
+    xp_requirements: 15227
+    info: -Attack Point increased!!<br>-Future is here character unlocks at level
+      19<br>-Rain of life item unlocks at level 20<br>-Ruski unlocks at level 20
+  - rank: 5
+    xp_requirements: 25636
+    info: -Attack Point increased!!
+  - rank: 6
+    xp_requirements: 39295
+    info: -Attack Point increased!!<br>-Heart character unlocks at level 26<br>-Minigun
+      unlocks at level 30<br>-3x item unlocks at level 30
+  - rank: 7
+    xp_requirements: 55954
+    info: -Attack Point increased!!<br>-Guns item unlocks at level 35<br>-Teddy and
+      la tour unlocks at level 33 and level 35
+  - rank: 8
+    xp_requirements: 76113
+    info: -Attack Point increased!!<br>-Shield of sparta unlocks at level 37<br>-Big
+      daddy gun and skull unlocks at level 40
+  - rank: 9
+    xp_requirements: 98522
+    info: -Attack Point increased!!<br>-Grand daddy gun unlocks at level 45
+  - rank: 10
+    xp_requirements: 125681
+    info: -Attack Point increased!!
